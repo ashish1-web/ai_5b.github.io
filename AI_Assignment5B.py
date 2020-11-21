@@ -4,8 +4,8 @@
 # In[1]:
 
 
-import nltk
-from nltk.corpus import brown
+import nltk                             #importing ntlk library
+from nltk.corpus import brown           # to import brown corpus
 
 
 # In[2]:
@@ -17,7 +17,7 @@ test_sentence_tokens = ['the','google','uses','the','nlp','in','its','google','a
 # In[3]:
 
 
-import nltk
+import nltk                             
 nltk.download('brown')
 words = brown.words()
 
